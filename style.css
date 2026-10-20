@@ -1,0 +1,15 @@
+.ToDoList {
+    padding: 50px;
+    border: 1px solid red;
+    width: 400px;
+}
+
+label {
+    padding: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}

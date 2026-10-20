@@ -3,17 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>To Play List</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <br>
-    <h1>Hello World Again!</h1>
-    <br>
-    <h1>Hello World Again Again!</h1>
-    <hr>
-    <h1>Hello World Again Again Again Again!</h1>
-    <hr>
-    <h1>Hello World Again Again Again Again Again!</h1>
+    <div class="ToDoList">
+        <h1>To Play List</h1>
+
+        <hr>
+
+        <label for="peli">Peli</label>
+        <input type="text" id="peli">
+        
+        <br>
+
+        <label for="Platform">Platform</label>
+        <input type="text" id="platform">
+        
+        <br>
+
+        <button type="submit">Lisää taulukkoon</button>
+
+        <table id="taulukko">
+        <tr>
+            <th>Peli</th>
+            <th>Platform</th>
+        </tr>
+        <tr>
+            <td>Control</th>
+            <td>PC</td>
+        </tr>
+        <tr>
+            <td>Bioshock 2</th>
+            <td>PS3</td>
+        </tr>
+    </table>
+
+        
+    </div>
 </body>
 </html>

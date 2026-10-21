@@ -4,42 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>To Play List</title>
 </head>
 <body>
-    <div class="ToDoList">
-        <h1>To Play List</h1>
+        <form id="gameForm">
+            <h1>To Play List</h1>
 
-        <hr>
+            <hr>
 
-        <label for="peli">Peli</label>
-        <input type="text" id="peli">
-        
-        <br>
+            <label for="game">Peli</label>
+            <input type="text" id="game" name="game">
+            
+            <br>
 
-        <label for="Platform">Platform</label>
-        <input type="text" id="platform">
-        
-        <br>
+            <button type="submit">Lisää taulukkoon</button>
 
-        <button type="submit">Lisää taulukkoon</button>
-
-        <table id="taulukko">
-        <tr>
-            <th>Peli</th>
-            <th>Platform</th>
-        </tr>
-        <tr>
-            <td>Control</th>
-            <td>PC</td>
-        </tr>
-        <tr>
-            <td>Bioshock 2</th>
-            <td>PS3</td>
-        </tr>
-    </table>
-
-        
-    </div>
+            <table id="GameTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Played</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="GameTableBody">
+                </tbody>
+            </table>
+        </form>
 </body>
 </html>

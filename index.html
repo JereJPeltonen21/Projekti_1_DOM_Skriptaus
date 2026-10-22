@@ -8,29 +8,33 @@
     <title>To Play List</title>
 </head>
 <body>
-        <form id="gameForm">
-            <h1>To Play List</h1>
+    <div class="parent-div">
+        <div class="centerDiv">
+            <form id="gameForm">
+                <div class="headerPlusPhoto">
+                    <img src="gamepad-solid.svg" role="img" alt="Game Controller">
+                    <h1>To Play List</h1>
+                </div>
 
-            <hr>
+                <input type="text" id="game" name="game">
+                
+                <button type="submit" class="AddGameButton">Add Game</button>
 
-            <label for="game">Peli</label>
-            <input type="text" id="game" name="game">
-            
-            <br>
+                <br>
 
-            <button type="submit">Lisää taulukkoon</button>
-
-            <table id="GameTable">
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Played</th>
-                        <th>Delete</th>
-                    </tr>
-                </thead>
-                <tbody id="GameTableBody">
-                </tbody>
-            </table>
-        </form>
+                <table id="GameTable" class="center">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Played</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody id="GameTableBody">
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </div>
 </body>
 </html>

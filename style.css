@@ -1,19 +1,88 @@
-.ToDoList {
-    padding: 50px;
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+body {
+    text-align: center;
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    background-color: rgb(83, 83, 140);
+}
+
+img {
+    width: 80px;
+}
+
+.headerPlusPhoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    padding-left: 20px;
+}
+
+#game {
+    width: 75%;
+    height: 20px;
+}
+
+button {
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+}
+
+input[type="checkbox"] {
     border: 1px solid red;
-    width: 400px;
+    width: 30px;
+    height: 25px;
+}
+
+.AddGameButton {
+    font-weight: 400;
+    border-radius: 5px;
+    width: 80px;
+    height: 25px;
+    font-family: "JetBrains Mono", monospace;
 }
 
 label {
     padding: 20px;
 }
 
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
+tbody, th, td{
+    text-align: center;
+    border-bottom: 1px solid black;
     padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+form {
+    padding: 5px 40px 30px 40px;
+    box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.50);
+    border-radius: 15px;
+    width: 400px;
+    background-color: white;
 }
 
 .crossed {
     text-decoration: line-through;
+}
+
+.center {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.parent-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
 }

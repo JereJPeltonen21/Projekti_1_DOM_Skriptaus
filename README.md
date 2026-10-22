@@ -1,58 +1,50 @@
-# Projektin nimi
+# To Play List
 
-**Tekijä(t):** Kirjoita tähän oma nimesi / tekijöiden nimet
+**Tekijä: Jere Peltonen**
 
 ## Projektisuunnitelma
 
 ### Projektin idea
 
-Kuvaile lyhyesti, mitä sovelluksesi tekee ja kenelle se on tarkoitettu.
+Valitsin projekti ideaksi tehdä To do list sivun, mutta tekee sen pelaajille jotka pystyvät merkkaamaan mitä pelejä on pelannut.
 
 ### Suunnitellut toiminnot
 
-Listaa vähintään kolme sovellukseesi suunniteltua toimintoa:
-
-- Toiminto 1
-- Toiminto 2
-- Toiminto 3
+- Pystyy lisäämään taulukkoon pelin
+- Pelin voi poistaa taulukosta
+- Pelin voi merkata pelatuksi jolloin line-through lisätään tekstin päälle.
+- Sivu tallentaa käyttäjän sisällön localstoragen avulla?
 
 ### Rautalankamalli / luonnos
 
-Lisää tähän kuva käsin piirtämästäsi tai digitaalisesti tehdystä sovelluksen luonnoksesta. Luonnoksessa tulee näkyä sovelluksen pääasiallinen näkymä ja tärkeimmät elementit.
+<img src="ToPlayListRautalankamalli.jpg" width="600">
 
-Esimerkki kuvan lisäämisestä:
-
-![Rautalankamalli](img/wireframe.png)
 
 ## Verkkolinkit
 
-- **Julkaistu sovellus:** [Lisää tähän GitHub Pages -osoite](https://yourusername.github.io/your-repository/)
-- **GitHub-repositorio:** [Lisää tähän repositorion osoite](https://github.com/yourusername/your-repository)
+- **Julkaistu sovellus:** [To Play List](https://jerejpeltonen21.github.io/Projekti_1_DOM_Skriptaus/)
+- **GitHub-repositorio:** [Projekti_1_DOM_Skriptaus](https://github.com/JereJPeltonen21/Projekti_1_DOM_Skriptaus)
 - **Projektin videoesittely:** [Lisää tähän videon osoite](https://example.com/)
 
 ## Tietoja sovelluksesta
 
-**[Projektin nimi]** on verkkosovellus, joka ...
-
-Kuvaile lyhyesti sovelluksen tarkoitus ja tärkeimmät toiminnot.
+**[To Play List]** on verkkosovellus, jolla voi lisätä listalle pelejä, pelit voi joko merkata pelatuksi tai poistaa listalta.
 
 ## Teknologiat
-
-Kuvaile, mitä teknologioita käytit ja mikä niiden rooli oli projektissasi.
 
 - HTML – sivun rakenne
 - CSS – ulkoasu ja asettelu
 - JavaScript – toiminnallisuus, DOM-skriptaus ja lomakkeiden validointi
-- localStorage – tietojen tallentaminen selaimeen, jos käytit sitä
+- localStorage – tietojen tallentaminen selaimeen, jos käytit sitä?
 
 ## Sovelluksen käyttö
 
 Kirjoita lyhyet käyttöohjeet sovellukselle.
 
 1. Avaa julkaistu sovellus yllä olevasta linkistä.
-2. Täytä lomakkeen kentät.
-3. Lisää, muokkaa, poista tai merkitse kohteita tehdyiksi.
-4. Päivitä sivu ja tarkista, säilyvätkö tiedot selaimessa, jos käytit localStoragea.
+2. Täytä lomakkeen kenttä.
+3. Lisää, poista tai merkitse kohteita tehdyiksi.
+4. Päivitä sivu ja tarkista, säilyvätkö tiedot selaimessa, jos käytit localStoragea?
 
 ## Sovelluksen käynnistäminen paikallisesti
 
@@ -60,52 +52,57 @@ Kirjoita lyhyet käyttöohjeet sovellukselle.
 2. Avaa projektikansio.
 3. Avaa `index.html` selaimessa.
 
-## Kuvakaappaukset
+## Kuvakaappaus
 
-Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksestasi.
-
-Esimerkki kuvan lisäämisestä:
-
-![Kuvakaappaus sovelluksesta](img/screenshot.png)
+![Kuvakaappaus sovelluksesta](ToPlayList.png)
 
 ## Tunnetut virheet / puutteet
 
-Kerro, jos sovelluksessa on tunnettuja virheitä, puuttuvia toimintoja tai muita rajoituksia.
+Tällä hetkellä kun kirjoitan tän, sovelluksesta puuttuu localstorage jonka avulla sovellus tallentaa käyttäjän lisäämät tiedot ja säilyy vaikka sivun sammuttaa tai päivittää, jos localstorage on saatu lisättyä niin tämä teksti poistetaan.
 
-Jos tunnettuja virheitä ei ole, kirjoita: **Ei tunnettuja virheitä.**
-
-## Työn jakautuminen
-
-*Täytä tämä osio vain, jos teit projektin parityönä.*
-
-Kuvaile, miten työ jakautui ja miten yhteistyö sujui.
-
-- Tekijä 1: ...
-- Tekijä 2: ...
+**Ei tunnettuja virheitä.**
 
 ## Oma arvio ja oppimisen reflektointi
 
-Pohdi työtäsi ja oppimisprosessiasi.
-
 - Missä onnistuin?
+  - Sanoisin että onnistuin tekemään sivusto hyvin mielyttävän tyyleillä ja hyvin simppelin.
+
 - Mikä oli haastavaa?
+  - Isoin haaste mitä tuli oli saada validator toimimaan, jos lomakkeeseen kirjoitti tyhjää niin se joskus lähetti tyhjän rivin taulukkoon tai laittoi viestin että kirjoita jotain noin 2-3 klikkauksen jälkeen, lopulta insinööri kaveri löysi ratkaisun ja auttoi sen lisäämisessä.
 - Mitä parantaisin, jos aikaa olisi enemmän?
+  -
 - Mitä opin HTML:stä, CSS:stä, JavaScriptistä ja DOM-skriptauksesta?
-- Mikä jäi epäselväksi tai mistä haluaisin oppia lisää?
+  - Tuli opittua enemmän javascriptiä mutta spesifisesti DOM-skriptausta jota oli kiva oppia ja mahdollisesti päästä käyttämään tulevissa projekteissa.
+
+- Mitä lisäisin, jos aikaa olisi enemmän?
+  - Olisin lisännyt enemmän ominaisuuksia esimerkiksi: taulukon sisältöä pystyy muokata, lisätä erillaisia kategoroita Backlog, Kesken, Lopetettu jne ja samalla pystyisi raahata rivin toiselle kategorialle.
+  - Olisin myös kiva päästä kokeilemaan API ennen projekti 2 sillä olisi kätevää jos kirjoittaa lomakkeeseen niin hakee databasista pelin nimen ja listaa myös muita mahdollisia pelejä niin käyttäjä ei tarvitse kirjoitaa manuaalisesti pelin nimet.
+  - Tekisin sivun toimimaan hyvin myös mobiili versiossa.
+
 - Oma arvio projektista: **xx/10 pistettä**
+  - Sain ainakin tehtyä kaikki pakolliset asiat niin arvioisin sen 9 pisteellä, jos saan vielä localstoragen lisättyä niin arvioisin sen tädellä 10 pisteellä.
 
 ## Lähteet ja kiitokset
 
-Listaa kaikki projektissa käyttämäsi lähteet, tutoriaalit, kuvat ja koodiesimerkit.
+Kiitokset menee mun Insinööri kavereille Juhana ja V jotka avustivat minua scriptien kanssa ja tarkoituksella ohjasivat niin että tulen vastauksiin omilla taidoilla eikä vaan he kirjoita mun puolesta.
 
-Jos käytit ChatGPT:tä, GitHub Copilotia tai muuta tekoälytyökalua, mainitse se tässä ja kerro lyhyesti, miten se tuki työskentelyäsi.
+- [w3school](https://www.w3schools.com/)
+- [mdn_](https://developer.mozilla.org/en-US/)
+  - Validator joka tarkistaa onko lomakkeessa mitään jolloin estää sen ja laittaa viestin siitä
+  - (https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation)
+- [Font Awesome](https://fontawesome.com/)
+  - Peliohjain Iconi
+  - (https://fontawesome.com/icons/classic/solid/gamepad)
+- [Sitepoint Community](https://www.sitepoint.com/community/)
+  - Iconi Headerin viereen
+  - (https://www.sitepoint.com/community/t/image-next-to-header-better-way/362160)
+- [Realtime Colors](https://www.realtimecolors.com)
+  - Väri ja Fontti
 
-- [Lähteen tai tutoriaalin nimi](https://example.com/)
-- [Kuvalähde](https://example.com/)
-- Käytetty tekoälytyökalu: ...
-  - Miten työkalua käytettiin: ...
 
-  ## Lisenssi
+
+
+## Lisenssi
 
 Tämä projekti on lisensoitu MIT-lisenssillä.
 

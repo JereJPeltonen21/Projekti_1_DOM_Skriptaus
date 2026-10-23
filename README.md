@@ -24,7 +24,7 @@ Valitsin projekti ideaksi tehdä To do list sivun, mutta tekee sen pelaajille jo
 
 - **Julkaistu sovellus:** [To Play List](https://jerejpeltonen21.github.io/Projekti_1_DOM_Skriptaus/)
 - **GitHub-repositorio:** [Projekti_1_DOM_Skriptaus](https://github.com/JereJPeltonen21/Projekti_1_DOM_Skriptaus)
-- **Projektin videoesittely:** [Lisää tähän videon osoite](https://example.com/)
+- **Projektin videoesittely:** [To Play List Projekti esitys](https://youtu.be/opJXUjfQ5bg)
 
 ## Tietoja sovelluksesta
 
@@ -36,6 +36,9 @@ Valitsin projekti ideaksi tehdä To do list sivun, mutta tekee sen pelaajille jo
 - CSS – ulkoasu ja asettelu
 - JavaScript – toiminnallisuus, DOM-skriptaus ja lomakkeiden validointi
 - localStorage – tietojen tallentaminen selaimeen, jos käytit sitä?
+
+## Tekoälyn käyttö
+En käyttänyt tekoälyä projektin tekemisessä.
 
 ## Sovelluksen käyttö
 
@@ -98,9 +101,6 @@ Kiitokset menee mun Insinööri kavereille Juhana ja V jotka avustivat minua scr
   - (https://www.sitepoint.com/community/t/image-next-to-header-better-way/362160)
 - [Realtime Colors](https://www.realtimecolors.com)
   - Väri ja Fontti
-
-
-
 
 ## Lisenssi
 
